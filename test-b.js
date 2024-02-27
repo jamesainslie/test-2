@@ -4,7 +4,7 @@ it('Logs in with a valid username and password', function (browser) {
     browser.waitForElementVisible('#username', 20000)
     browser.element.find('#username').sendKeys('student')
     browser.waitForElementVisible('#password', 20000)
-    browser.element.find('#password').sendKeys('Password123')
+    browser.element.find('#password').sendKeys('Password')
     browser.waitForElementVisible('#submit', 20000)
     browser.element.find('#submit').click()
     browser.waitForElementVisible('#loop-container > div > article > div.post-header > h1')
